@@ -1,0 +1,17 @@
+├── data/
+│   ├── raw_data/           # Raw court orders/petitions
+│   ├── processed_data/     # Processed and cleaned data
+├── models/
+│   ├── trained_model.pt    # Trained model file
+├── notebooks/
+│   ├── exploratory_analysis.ipynb   # Jupyter notebooks for data analysis
+├── src/
+│   ├── data_preprocessing.py  # Scripts for data cleaning
+│   ├── model_training.py      # Script to train the fraud detection model
+│   ├── fraud_detection.py     # Script to run the fraud detection on new data
+├── tests/
+│   ├── test_model.py          # Unit tests for the model
+├── README.md
+├── LICENSE
+├── requirements.txt
+└── .gitignore
